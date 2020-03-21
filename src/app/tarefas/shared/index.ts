@@ -1,2 +1,2 @@
-export * from './Tarefa.model.ts';
-export * from './TarefaService.service';
+export * from './tarefa.model';
+export * from './tarefa.service';
