@@ -1,13 +1,24 @@
-import { ListarTarefaComponent } from "./listar-tarefa";
-import { Router } from "@angular/router";
+import { Routes } from '@angular/router';
 
+import { ListarTarefaComponent } from './listar-tarefa';
+//import { CadastrarTarefaComponent } from './cadastrar';
+//import { EditarTarefaComponent } from './editar';
 
-export const TarefaRoutes: Router = [
-  {
-    path: "tarefas",
-    redirectTo: "tarefas/listar"
-  },{
-    path:'tarefas/listar',
-    Component:ListarTarefaComponent
-  }
+export const TarefaRoutes: Routes = [
+	{ 
+		path: 'tarefas', 
+		redirectTo: 'tarefas/listar' 
+	},
+	{ 
+		path: 'tarefas/listar', 
+		component: ListarTarefaComponent 
+	}, 
+	{ 
+	//	path: 'tarefas/cadastrar', 
+	//	component: CadastrarTarefaComponent 
+	},
+	{ 
+	//	path: 'tarefas/editar/:id', 
+		//component: EditarTarefaComponent 
+	}
 ];
