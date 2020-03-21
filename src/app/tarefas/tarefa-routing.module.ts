@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 
 import { ListarTarefaComponent } from "./listar-tarefa";
-import { CadastrarTarefaComponent } from "./cadastrar";
+import { CadastrarTarefaComponent } from "./cadastrar-tarefa";
 //import { EditarTarefaComponent } from './editar';
 
 export const TarefaRoutes: Routes = [
