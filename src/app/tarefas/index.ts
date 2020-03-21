@@ -1,5 +1,5 @@
 export * from './tarefas.module';
 export * from './shared';
 export * from './listar-tarefa';
-export * from './cadastrar';
+export * from './cadastrar-tarefa';
 export * from './tarefa-routing.module';
