@@ -18,7 +18,7 @@ export const TarefaRoutes: Routes = [
     component: CadastrarTarefaComponent
   },
    {
-    path: "tarefas/editar:id",
+    path: "tarefas/editar",
     component: EditarTarefaComponent
   },
 ];
