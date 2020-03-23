@@ -20,5 +20,5 @@ export const TarefaRoutes: Routes = [
    {
     path: "tarefas/editar:id",
     component: EditarTarefaComponent
-  }
+  },
 ];
